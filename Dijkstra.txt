@@ -1,0 +1,22 @@
+**Aplicación de los montículos mínimos en el algoritmo de Dijkstra**
+
+El algoritmo de Dijkstra se utiliza para encontrar los caminos más cortos desde un nodo de origen hacia los demás nodos 
+de un grafo, siempre que sus aristas tengan pesos no negativos.
+
+Los montículos mínimos se pueden utilizar para mejorar el funcionamiento de este algoritmo, ya que permiten mantener 
+organizados los nodos según la distancia acumulada desde el nodo de origen.
+
+Durante la ejecución de Dijkstra, se selecciona el nodo que tenga la menor distancia conocida. Para realizar 
+esta operación, el montículo mínimo permite consultar y extraer rápidamente el elemento con el valor más pequeño.
+
+Cuando se visita un nodo, se revisan sus vecinos y se actualizan sus distancias si se encuentra un camino más corto. 
+Los nuevos valores se agregan o actualizan en la estructura de prioridad para mantener primero el nodo con menor distancia.
+
+De esta manera, el montículo mínimo facilita la selección de los siguientes nodos que deben procesarse y permite 
+que el algoritmo de Dijkstra trabaje de forma más eficiente, especialmente en grafos con muchos nodos y conexiones.
+
+**Conclusión**
+
+Los montículos mínimos son una estructura de datos importante para implementar el algoritmo de Dijkstra, 
+porque permiten obtener rápidamente el elemento con menor prioridad y organizar el procesamiento de los nodos 
+de acuerdo con sus distancias.
